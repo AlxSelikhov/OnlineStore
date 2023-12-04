@@ -1,0 +1,11 @@
+.product-actions {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 425px) {
+  .product-actions {
+    display: flex;
+    flex-direction: column;
+  }
+}

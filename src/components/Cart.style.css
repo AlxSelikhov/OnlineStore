@@ -1,0 +1,11 @@
+.cart-actions {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 425px) {
+  .cart-actions {
+    display: flex;
+    flex-direction: column;
+  }
+}
