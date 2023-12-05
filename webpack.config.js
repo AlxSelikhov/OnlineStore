@@ -33,7 +33,7 @@ module.exports = {
   devServer: {
     static: path.join(__dirname, 'public'), // Укажите директорию со статическими ресурсами
     compress: true,
-    port: 3000,
+    port: 5001,
     open: true,
   },
 };
